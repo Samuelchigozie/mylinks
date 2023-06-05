@@ -1,1 +1,67 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #060042;
+  background-image: linear-gradient(#060042 2%, #20a39e 108%);
+  min-height: 100vh;
+}
+
+img {
+  width: 120px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  border: 2px solid white;
+  max-width: 400px;
+  margin: 0 auto 15px auto;
+}
+
+a:hover {
+  background-color: #060042;
+}
+
+.portfolio {
+  color: #060042;
+  background-color: white;
+  font-weight: bold;
+  border-color: #060042;
+}
+
+.portfolio:hover {
+  color: white;
+  border-color: white;
+}
+
+div {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+div a {
+  flex: 1;
+  margin-left: 15px;
+  padding: 5px 10px;
+  background-color: #060042;
+  border-color: #060042;
+}
+div a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
